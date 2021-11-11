@@ -2,7 +2,7 @@
 
 Useful tools built when [solving the leetcode problems](https://github.com/ZhengjunHUO/leetcode). To be updated.
 
-## About
+### Details
 > Factorial(n uint64) uint64 : Calculate factorial
 >
 > GetKmpTable(s string) []int : Build a KMP table 
