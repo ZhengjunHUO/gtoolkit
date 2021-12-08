@@ -1,7 +1,7 @@
 package gtoolkit
 
 // when target doesn't exist, return the insert position
-func searchLeftBnd(nums []int, target int) int {
+func SearchLeftBnd(nums []int, target int) int {
 	if len(nums) == 0 {
 		return -1
 	}
@@ -19,7 +19,7 @@ func searchLeftBnd(nums []int, target int) int {
 	return l
 }
 
-func searchRightBnd(nums []int, target int) int {
+func SearchRightBnd(nums []int, target int) int {
 	if len(nums) == 0 {
 		return -1
 	}
